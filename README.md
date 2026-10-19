@@ -1,5 +1,9 @@
 # Skole prosjekter
 
+Dette er en samling med prosjekter og arbeidskrav jeg har gjort gjennom emnene på skolen, som kanskje kan være verdt å legge ut for referanse til cv og fremtidige jobber.
+
+> **Obs** Noen av disse prosjektene ble gjort i samarbeid med andre elever.
+
 ## [Første semester](./Første%20semester/)
 
 ### [Programmering](./Første%20semester/Programmering/)
