@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="no">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>Slette boligannonse - Home Rentals</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<a class="logo" href="index.html">Home Rentals</a>
+			<nav>
+				<ul>
+					<li><a href="UC3.1.html">3.1. Søke etter og vise tilgjengelige boliger</a></li>
+					<li class="menyvalg">
+						<a href="#">For utleiere</a>
+						<ul class="undermeny">
+							<li><a href="UC1.1.html">1.1. Registrere ny utleier</a></li>
+							<li><a href="UC2.1.html">2.1. Opprette boligannonse</a></li>
+							<li><a href="UC2.2.html">2.2. Redigere boligannonse</a></li>
+							<li><a href="UC2.3.html">2.3. Slette boligannonse</a></li>
+						</ul>
+					</li>
+					<li class="menyvalg">
+						<a href="#">For leietakere</a>
+						<ul class="undermeny">
+							<li><a href="UC1.2.html">1.2. Registrere ny leietaker</a></li>
+							<li><a href="UC4.1.html">4.1. Registrere booking</a></li>
+							<li><a href="UC4.3.html">4.3. Gjennomføre betaling</a></li>
+							<li><a href="UC5.1.html">5.1. Legge igjen vurderinger</a></li>
+						</ul>
+					</li>
+					<li class="menyvalg">
+						<a href="#">Din Konto</a>
+						<ul class="undermeny">
+							<li><a href="UC1.3.html">1.3. Logge inn som utleier</a></li>
+							<li><a href="UC1.4.html">1.4. Logge inn som leietaker</a></li>
+							<li><a href="UC1.5.html">1.5. Administrere utleierprofil</a></li>
+							<li><a href="UC1.6.html">1.6. Administrere leietakers profil</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="hovedboks">
+				<h1>Slette boligannonse</h1>
+				<div class="beskjed" id="status-melding"></div>
+				<div class="valgt-bolig-boks">
+					<img src="Bilder/415_2146403514.png" class="valgt-bolig-bilde">
+					<div>
+						<h3 class="ingen-marg">Bekreft sletting av annonse:</h3>
+						<h4 class="blå-overskrift">Moderne Leilighet i Sentrum</h4>
+					</div>
+				</div>
+				<form id="handling-skjema">
+					<div class="skjema-gruppe">
+						<label for="annonse-navn" >Bekreft navn på boligannonse manuelt</label>
+						<input id="annonse-navn" name="annonse-navn" placeholder="Skriv inn: Moderne Leilighet i Sentrum" required type="text" />
+					</div>
+					<div class="skjema-gruppe">
+						<label for="passord" >For å bekrefte sletting, skriv inn passordet ditt</label>
+						<input id="passord" name="passord" placeholder="Ditt passord" required type="password" />
+					</div>
+					<button class="hovedknapp" type="submit">
+						Slett Annonse Permanent
+					</button>
+				</form>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.5.2 Safari/537.36" version="29.5.2" pages="2">
+  <diagram id="GF5Swbg4ooP3PUSAoINQ" name="Registrere ny utleier">
+    <mxGraphModel dx="641" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=32.5;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="219.5" as="sourcePoint" />
+            <mxPoint x="500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJnArwLrXI5HFRDHa-WE-2" connectable="0" parent="Ov7xu1OWL5xWe41P3OsC-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ny utleier" vertex="1">
+          <mxGeometry relative="1" x="0.1285" y="2" as="geometry">
+            <mxPoint x="-10" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-38" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=77.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=100;entryDy=77.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="291" as="sourcePoint" />
+            <mxPoint x="340" y="290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJnArwLrXI5HFRDHa-WE-3" connectable="0" parent="Ov7xu1OWL5xWe41P3OsC-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Tilbakemelding" vertex="1">
+          <mxGeometry relative="1" x="0.2329" y="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-39" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" value="Utleier" vertex="1">
+          <mxGeometry height="100" width="100" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-40" parent="Ov7xu1OWL5xWe41P3OsC-39" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" value="Id" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" as="geometry">
+            <mxPoint x="15" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-41" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#CCCCCC;" value="D1" vertex="1">
+          <mxGeometry height="30" width="100" x="505" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-42" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#CCCCCC;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;gradientColor=none;" value="nr" vertex="1">
+          <mxGeometry height="110" width="110" x="500" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-43" parent="Ov7xu1OWL5xWe41P3OsC-42" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Registrere ny utleier" vertex="1">
+          <mxGeometry height="90" width="110" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-44" edge="1" parent="1" source="Ov7xu1OWL5xWe41P3OsC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="Ov7xu1OWL5xWe41P3OsC-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="528" y="360" />
+              <mxPoint x="528" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GJnArwLrXI5HFRDHa-WE-4" connectable="0" parent="Ov7xu1OWL5xWe41P3OsC-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Utleier ID" vertex="1">
+          <mxGeometry relative="1" x="0.0997" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-45" edge="1" parent="1" source="Ov7xu1OWL5xWe41P3OsC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.783;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;" target="Ov7xu1OWL5xWe41P3OsC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GJnArwLrXI5HFRDHa-WE-5" connectable="0" parent="Ov7xu1OWL5xWe41P3OsC-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ny utleier" vertex="1">
+          <mxGeometry relative="1" x="-0.1573" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ov7xu1OWL5xWe41P3OsC-46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Utleier" vertex="1">
+          <mxGeometry height="30" width="60" x="541" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="JyotWeurDsW-m88No4Ss-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Registrere ny utleier" vertex="1">
+          <mxGeometry height="30" width="60" x="380" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VBgigum4bhk9UaUG4KYc" name="Registrere ny leietaker">
+    <mxGraphModel dx="641" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=32.5;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="339.5" as="sourcePoint" />
+            <mxPoint x="410" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-13" connectable="0" parent="t2Sb9hiV-6RmD3Jis8Dc-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ny leietaker" vertex="1">
+          <mxGeometry relative="1" x="-0.1456" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=77.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=100;entryDy=77.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="411" as="sourcePoint" />
+            <mxPoint x="250" y="410.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-14" connectable="0" parent="t2Sb9hiV-6RmD3Jis8Dc-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Tilbakemelding" vertex="1">
+          <mxGeometry relative="1" x="0.1332" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" value="Leietaker" vertex="1">
+          <mxGeometry height="100" width="100" x="150" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-4" parent="t2Sb9hiV-6RmD3Jis8Dc-3" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" value="Id" vertex="1">
+          <mxGeometry height="20" relative="1" width="20" as="geometry">
+            <mxPoint x="15" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-5" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];fillColor=#CCCCCC;" value="D2" vertex="1">
+          <mxGeometry height="30" width="100" x="415" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#CCCCCC;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;rounded=1;gradientColor=none;" value="nr" vertex="1">
+          <mxGeometry height="110" width="110" x="410" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-7" parent="t2Sb9hiV-6RmD3Jis8Dc-6" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Registrere ny leietaker" vertex="1">
+          <mxGeometry height="90" width="110" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-8" edge="1" parent="1" source="t2Sb9hiV-6RmD3Jis8Dc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="t2Sb9hiV-6RmD3Jis8Dc-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="480" />
+              <mxPoint x="438" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-15" connectable="0" parent="t2Sb9hiV-6RmD3Jis8Dc-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Leietaker ID" vertex="1">
+          <mxGeometry relative="1" x="0.0001" as="geometry">
+            <mxPoint x="-6" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-9" edge="1" parent="1" source="t2Sb9hiV-6RmD3Jis8Dc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.783;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;" target="t2Sb9hiV-6RmD3Jis8Dc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-16" connectable="0" parent="t2Sb9hiV-6RmD3Jis8Dc-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Ny&lt;div&gt;Leietaker&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0561" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2Sb9hiV-6RmD3Jis8Dc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Leietaker" vertex="1">
+          <mxGeometry height="30" width="60" x="451" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="OJBSh1lTQ1TSkKr6pTU5-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Registrere ny leietaker" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
